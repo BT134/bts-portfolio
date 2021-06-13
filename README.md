@@ -8,7 +8,7 @@
 
 > This is what we were given as an example to create something similar. 
 
-><img src="Assets\02-advanced-css-homework.demo.gif" alt="Gif of example webpage">
+><img src="Assets\02-advanced-css-homework-demo.gif" alt="Gif of example webpage">
 
 ## Website Screen Shot
 
