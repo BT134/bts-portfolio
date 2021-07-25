@@ -6,11 +6,11 @@
 
 ## Website Screen Shot
 
-><img src=".\Assets\images\myportfolioscreenshot.png" alt="Screen shot of my portfolio website">
+><img src=".\Assets\images\updated-portfolio-screenshot.JPG" alt="Screen shot of my portfolio website">
 
 ## Installation
 
-> This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL https://bt134.github.io/bts-portfolio/. The Apps/Project links aren't working at this stage. They will be updated once projects are completed. 
+> This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL https://bt134.github.io/bts-portfolio/. Some of the Apps/Projects are available to view. Just click on the project image and it will take you to the deployed site. 
 
 ## Built With
 
@@ -24,7 +24,7 @@
 * [W3 Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
 * [Bootsrap](https://getbootstrap.com/)
-* [jQuery] (https://jquery.com/)
+* [jQuery](https://jquery.com/)
 
 ## Author
 
