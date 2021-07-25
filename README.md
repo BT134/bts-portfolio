@@ -1,20 +1,12 @@
-# My Portfolio - Week 2 Homework
+# My Portfolio
 
 ## Desciption
 
-> This is my developers portfolio to showcase my work and to tell a little about myself for future employers. I was tasked to create a page that I will be able to add my future projects and applications into that will allow potentional employers an insite into what I have created so far. The Apps/Projects in the website aren't fully opporational just yet. However they will be updated as I complete projects.  
-
-## Example
-
-> This is what we were given as an example to create something similar. 
-
-><img src="Assets\02-advanced-css-homework.demo.gif" alt="Gif of example webpage">
+> This is my developers portfolio to showcase my work and to tell a little about myself for future employers. I was tasked to create a page that I will be able to add my future projects and applications into that will allow potentional employers an insite into what I have created so far. More to be updated in coming months as I complete more projects.  
 
 ## Website Screen Shot
 
-> This is my page.
-
-><img src="Assets\myportfolioscreenshot.png" alt="Screen shot of my portfolio">
+><img src=".\Assets\images\myportfolioscreenshot.png" alt="Screen shot of my portfolio website">
 
 ## Installation
 
@@ -31,6 +23,8 @@
 * [GitHub Pages](https://pages.github.com)
 * [W3 Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* [Bootsrap](https://getbootstrap.com/)
+* [jQuery] (https://jquery.com/)
 
 ## Author
 
@@ -38,7 +32,7 @@
 
 ## Project Status
 
-> Website is currently live. Will be constantly updated with future works. 
+> Website is currently live. Will be constantly updated with future works. Latest update 25/07/21.
 
 ## Contact 
 

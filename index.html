@@ -2,117 +2,197 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body>
     <div id="bg">
-        <img src="Assets/board-bg.jpg" alt="Black bricks background image">
+        <img src="Assets/images/board-bg.jpg" alt="Black bricks background image">
     </div>
     <header>
-        <img id="headshot" src="Assets/headshot.jpg" alt="Headshot of Brenton Turnor">
-            <h1>Brenton Turnor</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work-header">Work</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
-                    <li><a href="Assets/Brenton Turnor Resume.pdf">Resume</a></li>
-                </ul>
-            </nav>  
+        <h1>Brenton Turnor</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work-header">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="Assets/docs/Brenton Turnor Resume.pdf">Resume</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <article>
-            <h2 id="about-me">About Me</h2>
-                <div class="about">
-                    <p>
-                        I'm new to coding and web design, with 2021 being my first year in the industry. I decided to enrol in UWA's Full Stack Web Design and Coding Bootcamp as the field has always interested me and I thought it would be a great skill to learn to enable me to head on a different career path.
-                        So far I am thorouly enjoying it and can see this opening up so many different possiblilties. I cant wait to see what I can create with more skills that I learn. 
-                    </p>
-                    <br>
-                    <p>
-                        I previously worked in retail sales and sales management, where I was able to learn alot of usefull skills, these included, negotiating, people managment, systems management, attention to detail and social/people skills to name a few. I'm currently working as a Sales Manager at a building technology company, called Intelligent Home. This role has given me more of a techincial sales abilty. I design, sell and implement systems into peoples homes and this has given me the abilty to work on small and large scale projects.  
-                    </p>
-                </div>       
-        </article>
-    <br>
-        <section>        
-            <h2 id="work-header">Work</h2>
-                <div class="work">
-                    <a href=#><img id="card-1" src="https://picsum.photos/id/1019/1920/1080/" alt="Placeholder image"></a>
-                        <div class="title-1">
-                            <h3>Project/App</h3>
-                            <p>
-                                "Desciption of project..."
-                            </p>
-                        </div>
+        <div class="container-md">
+            <div class="row">
+                <div class="col-10">
+                    <div class="about">
+                        <h2 id="about-me">About Me</h2>
+                        <p>
+                            I'm a Full-Stack Developer located in Perth, Western Australia. New to the industry with
+                            plenty of energy and attention to detail. Recently completed a Full Stack Web Design and
+                            Coding Bootcamp at UWA. Web design/development is something that has always interested me
+                            and I want to apply my years of experience in the retail sales industry into providing
+                            clients with a high level of service and focus on their requirments.
+                        </p>
+                        <br>
+                        <p>
+                            I previously worked in retail sales and sales management, where I was able to learn alot of
+                            useful skills, these included, negotiating, leadership, time managment, systems management
+                            and people managment to name a few. I'm currently working as a Sales Manager at a building
+                            technology company, Intelligent Home. This role has given me more of a techincial sales
+                            abilty. Where I design, sell and implement systems into peoples homes and this has given me
+                            the opportunity to work on small and large scale projects.
+                        </p>
+                        <br>
+                        <p>
+                            Well-organised person, problem solver, independent emloyee with high attention to detail.
+                            Fan of Australian Rules Football, Gaming, Snowboarding and Watching Movies. I'm a family man
+                            and a father to a beatiful girl, Zoe.
+                        </p>
+                    </div>
                 </div>
-                <div class="column">
-                    <a href=#><img class="cards" src="https://picsum.photos/id/1037/1024/768/" alt="Placeholder image"></a>
-                        <div class="title2">
-                            <h3>Project/App 2</h3>
-                            <p>
-                                "Desciption of project..."
-                            </p>
-                        </div>
-                    <a href=#><img class="cards" src="https://picsum.photos/id/103/1024/768" alt="Placeholder image"></a>
-                        <div class="title3">
-                            <h3>Project/App 3</h3>
-                            <p>
-                                "Desciption of project..."
-                            </p>
-                        </div>
+                <div class="col-2">
+                    <div class="image-container">
+                        <img src="./Assets/images/profile-picture.jpg" alt="Photo of Brenton Turnor"
+                            class="rounded mx-auto d-block img-fluid">
+                    </div>
                 </div>
-                <div class="column">               
-                    <a href=#><img class="cards" src="https://picsum.photos/id/1041/1024/768" alt="Placeholder image"></a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container-md">
+            <div class="row">
+                <div class="col">
+                    <h2 id="work-header">Work</h2>
+                    <div class="card" id="work">
+                        <a href='https://bt134.github.io/novice-chef/'><img id="card-1"
+                                src="./Assets/images/novice-chef-screenshot.jpg"
+                                alt="Screenshot of Novice Chef webpage"></a>
+                        <div class="title-1 card-title">
+                            <h3>Novice Chef</h3>
+                            <p class="card-text">
+                                A recipe search web app. <br>Utilizing MealDB API and Youtube API. <br>
+                                <a href='https://github.com/BT134/novice-chef'>https://github.com/BT134/novice-chef</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-md">
+            <div class="row custom">
+                <div class="col-6">
+                    <div class="card" id="work">
+                        <a href="https://bt134.github.io/web-code-quiz/"><img class="cards" id="cards"
+                                src="./Assets/images/coding-quiz.JPG" alt="Screenshot of Web Code Quiz website"></a>
+                        <div class="title2 card-title">
+                            <h3>Web Coding Quiz</h3>
+                            <p>
+                                A multiple choice coding quiz app. <br>
+                                <a
+                                    href="https://github.com/BT134/web-code-quiz">https://github.com/BT134/web-code-quiz</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" id="work">
+                        <a href="https://bt134.github.io/work-day-scheduler-api/"><img class="cards" id="cards"
+                                src="./Assets/images/work-day-scheduler.JPG"
+                                alt="Screenshot of Work Day Scheduler website"></a>
+                        <div class="title3 card-title">
+                            <h3>Work Day Scheduler</h3>
+                            <p>
+                                A work day calender app for <br>important daily planning.<br>
+                                <a
+                                    href="https://github.com/BT134/work-day-scheduler-api">https://github.com/BT134/work-day-scheduler-api</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row custom">
+                <div class="col-6">
+                    <div class="card" id="work">
+                        <a href=#><img class="cards" src="https://picsum.photos/id/1041/1024/768"
+                                alt="Placeholder image"></a>
                         <div class="title4">
-                            <h3>Project/App 4</h3>
+                            <h3>Future Project</h3>
                             <p>
                                 "Desciption of project..."
                             </p>
                         </div>
-                    <a href=#><img class="cards" src="https://picsum.photos/id/119/1024/768" alt="Placeholder image"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" id="work">
+                        <a href=#><img class="cards" src="https://picsum.photos/id/119/1024/768"
+                                alt="Placeholder image"></a>
                         <div class="title5">
-                            <h3>Project/App 5</h3>
+                            <h3>Future Project</h3>
                             <p>
                                 "Desciption of project..."
                             </p>
                         </div>
+                    </div>
                 </div>
-        </section>
-        <section>
-            <h2 id="contact-me">Contact Me</h2>
-                <div class="contact">
-                <nav>
-                    <ul>
-                        <li><a href="mailto:brenton.turnor@hotmail.com">Email - brenton.turnor@hotmail.com</a></li>
-                        <li><a href="tel:0401239593">Phone - 0401239593</a></li>
-                        <li><a href="https://github.com/BT134">Git Hub - BT134</a></li>
-                        <li><a href="https://twitter.com/BTurnor">Twitter - @BTurnor</a></li>
-                    </ul>
-                </nav>
+            </div>
+        </div>
+
+        <div class="container-md">
+            <div class="row">
+                <h2 id="contact-me">Contact Me</h2>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact">
+                        <nav>
+                            <ul>
+                                <li><a href="mailto:brenton.turnor@hotmail.com">Email - brenton.turnor@hotmail.com</a>
+                                </li>
+                                <li><a href="tel:0401239593">Phone - 0401239593</a></li>
+                                <li><a href="https://github.com/BT134">Git Hub - BT134</a></li>
+                                <li><a href="https://twitter.com/BTurnor">Twitter - @BTurnor</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-        </section>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <span>Follow Me :</span>
-            <ul>
-                <li><a href= "https://www.instagram.com/brentonturnor/"><i class="fab fa-instagram"></i></a></li>
-                <li><a href= "https://www.facebook.com/brenton.turnor"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href= "https://twitter.com/BTurnor"><i class="fab fa-twitter-square"></i></a></li>
-                <li><a href= "https://github.com/BT134"><i class="fab fa-github"></i></a></li>
-                <li><a href= "https://au.linkedin.com/in/brenton-turnor-345831b2"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
+        <span>Find Me :</span>
+        <ul>
+            <li><a href="https://www.instagram.com/brentonturnor/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/brenton.turnor"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/BTurnor"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://github.com/BT134"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://au.linkedin.com/in/brenton-turnor-345831b2"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
         <span class="footer">Made & Designed By Brenton Turnor</span>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
 </body>
 
 </html>
