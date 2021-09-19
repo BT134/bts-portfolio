@@ -2,7 +2,7 @@
   --dark: #000000;
   --light: #d3d3d3;
   --navlink-color: #d3d3d3;
-  --hover: rgb(39, 90, 255);
+  --hover: rgb(36, 71, 187);
   --card-back: rgba(211, 211, 211, 0.931);
 }
 * {
@@ -66,7 +66,6 @@ nav a {
   
 nav a:hover {
   color: var(--hover);
-  text-decoration: underline;
 }
   
 h2 {
@@ -193,7 +192,6 @@ main {
 
 .contact {
   text-align: center;
-  align-items: center;
   font-size: 100%;
   font-weight: bold;
 }
@@ -204,28 +202,25 @@ footer {
   color: var(--light);
   z-index: 2;
   font-size: 120%;
+  text-align: center;
+  margin-top: 2%;
 }
  
 footer p{
-  font-size: 120%;
+  font-size: 100%;
   font-weight:bold;
-  margin-top: 5%;
 }
  
 footer ul {
-  display: flex ;
-  flex: auto;
-  justify-content: left;
+ 
   list-style: none;
   font-size: 200%;
-  margin-left: 5% ;
-  margin-top: -2.5%;
-  color: rgb(187, 185, 53);
 }
 
 footer li {
-padding-left: 30px;
-margin-top: 10px;
+  display: inline-block;
+  padding-right: 30px;
+  margin-top: 10px;
 }
 
 footer li:hover {
@@ -233,7 +228,6 @@ footer li:hover {
 }
   
 .footer {
-  float: right;
   color: var(--navlink-color);
 }
 

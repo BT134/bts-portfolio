@@ -1,5 +1,7 @@
 # My Portfolio
 
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Desciption
 
 > This is my developers portfolio to showcase my work and to tell a little about myself for future employers. I was tasked to create a page that I will be able to add my future projects and applications into that will allow potentional employers an insite into what I have created so far. More to be updated in coming months as I complete more projects.  
@@ -32,7 +34,7 @@
 
 ## Project Status
 
-> Website is currently live. Will be constantly updated with future works. Latest update 25/07/21.
+> Website is currently live. Will be constantly updated with future works. Latest update 19/09/21.
 
 ## Contact 
 
